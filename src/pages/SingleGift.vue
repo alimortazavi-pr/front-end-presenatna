@@ -29,7 +29,7 @@
                   >
                     <img
                       class="d-block"
-                      :src="`http://localhost:5000/${image.path}`"
+                      :src="`https://presentana.herokuapp.com/${image.path}`"
                       alt="slide"
                     />
                   </div>

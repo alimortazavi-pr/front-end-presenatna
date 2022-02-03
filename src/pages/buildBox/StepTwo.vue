@@ -13,7 +13,7 @@
       <div class=" col-md-2 my-2" v-if="box.title">
         <img
           class="img-fluid"
-          :src="`http://localhost:5000/${box.image[0].path}`"
+          :src="`https://presentana.herokuapp.com/${box.image[0].path}`"
           alt="..."
         />
       </div>
@@ -25,7 +25,7 @@
         <span class="CountGift">{{ gift.length }}</span>
         <img
           class="img-fluid"
-          :src="`http://localhost:5000/${gift.images[0].path}`"
+          :src="`https://presentana.herokuapp.com/${gift.images[0].path}`"
           alt="..."
         />
       </div>
@@ -147,7 +147,7 @@
           <div class="card-image">
             <router-link to="#" data-toggle="modal" data-target="#giftModal" @click="openModal(gift)">
               <img
-                :src="`http://localhost:5000/${gift.images[0].path}`"
+                :src="`https://presentana.herokuapp.com/${gift.images[0].path}`"
                 alt="..."
               />
             </router-link>

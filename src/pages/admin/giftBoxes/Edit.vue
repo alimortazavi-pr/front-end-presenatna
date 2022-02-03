@@ -102,7 +102,7 @@
             <div class="col-md-4" v-for="(image, i) in form.images" :key="i">
               <img
                 class="img-fluid rounded"
-                :src="`http://localhost:5000/${image.path}`"
+                :src="`https://presentana.herokuapp.com/${image.path}`"
                 alt=""
                 height="500"
               />

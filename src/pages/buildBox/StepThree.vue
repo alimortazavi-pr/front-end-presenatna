@@ -12,7 +12,7 @@
     <div class="col-md-12 row p-4">
       <div class="col-md-4">
         <img
-          :src="`http://localhost:5000/${store.getters.card.images[0].path}`"
+          :src="`https://presentana.herokuapp.com/${store.getters.card.images[0].path}`"
           alt="..."
         />
       </div>
@@ -68,7 +68,7 @@
           <div class="card-image">
             <router-link to="#">
               <img
-                :src="`http://localhost:5000/${card.images[0].path}`"
+                :src="`https://presentana.herokuapp.com/${card.images[0].path}`"
                 alt="..."
               />
             </router-link>

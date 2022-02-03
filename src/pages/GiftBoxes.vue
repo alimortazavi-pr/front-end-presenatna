@@ -35,7 +35,7 @@
             <div class="card-image">
               <router-link :to="{name : 'SingleGiftBox' , params : {giftBox : giftBox._id}}">
                 <img
-                  :src="`http://localhost:5000/${giftBox.images[0].path}`"
+                  :src="`https://presentana.herokuapp.com/${giftBox.images[0].path}`"
                   alt="..."
                 />
               </router-link>

@@ -15,13 +15,13 @@
                 <div class="col-md-5 col-6">
                   <img
                     v-if="product.giftBoxType"
-                    :src="`http://localhost:5000/${product.giftBox.images[0].path}`"
+                    :src="`https://presentana.herokuapp.com/${product.giftBox.images[0].path}`"
                     alt="..."
                     class="img-fluid rounded shadow"
                   />
                   <img
                     v-else
-                    :src="`http://localhost:5000/${product.box.image[0].path}`"
+                    :src="`https://presentana.herokuapp.com/${product.box.image[0].path}`"
                     alt="..."
                     class="img-fluid rounded shadow"
                   />

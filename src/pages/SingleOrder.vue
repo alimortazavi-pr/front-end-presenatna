@@ -61,14 +61,14 @@
                           <img
                             v-if="product.giftBoxType"
                             :src="
-                              `http://localhost:5000/${product.giftBox.images[0].path}`
+                              `https://presentana.herokuapp.com/${product.giftBox.images[0].path}`
                             "
                             alt="..."
                           />
                           <img
                             v-else
                             :src="
-                              `http://localhost:5000/${product.box.image.path}`
+                              `https://presentana.herokuapp.com/${product.box.image.path}`
                             "
                             alt="..."
                           />

@@ -12,7 +12,7 @@
     <div class="col-md-6" v-for="(box, i) in boxes" :key="i">
       <img
         class="img-fluid"
-        :src="`http://localhost:5000/${box.image[0].path}`"
+        :src="`https://presentana.herokuapp.com/${box.image[0].path}`"
         alt="..."
       />
       <button class="btn btn-info btn-block mt-3" @click.prevent="addBox(box)">

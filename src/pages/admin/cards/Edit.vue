@@ -44,7 +44,7 @@
           <div class="text-center">
             <img
               class="img rounded"
-              :src="`http://localhost:5000/${form.image}`"
+              :src="`https://presentana.herokuapp.com/${form.image}`"
               alt=""
               height="500"
             />

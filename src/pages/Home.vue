@@ -176,7 +176,7 @@
                         >
                           <img
                             :src="
-                              `http://localhost:5000/${giftBox.images[0].path}`
+                              `https://presentana.herokuapp.com/${giftBox.images[0].path}`
                             "
                             alt="..."
                           />

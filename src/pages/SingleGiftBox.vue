@@ -29,7 +29,7 @@
                   >
                     <img
                       class="d-block"
-                      :src="`http://localhost:5000/${image.path}`"
+                      :src="`https://presentana.herokuapp.com/${image.path}`"
                       alt="slide"
                     />
                   </div>
@@ -110,7 +110,7 @@
                               <router-link to="#">
                                 <img
                                   :src="
-                                    `http://localhost:5000/${card.images[0].path}`
+                                    `https://presentana.herokuapp.com/${card.images[0].path}`
                                   "
                                   alt="..."
                                 />
@@ -147,7 +147,7 @@
                   <div class="col-md-4">
                     <img
                       :src="
-                        `http://localhost:5000/${store.getters.card.images[0].path}`
+                        `https://presentana.herokuapp.com/${store.getters.card.images[0].path}`
                       "
                       alt="..."
                     />
